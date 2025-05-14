@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/data")
     public String getData() {
-        return "This project is done by Pavan";
+        return "This project is done by Pavan!";
     }
 
     @GetMapping("/message")
